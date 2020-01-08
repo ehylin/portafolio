@@ -1,0 +1,62 @@
+
+body{
+  font-family: 'Lobster', cursive;
+  font-family: 'Cabin', sans-serif;
+}
+nav, .trabajos, footer{
+  background-color: #660066;
+}
+nav a{
+  color:#fff;
+}
+.carousel-indicators li{
+  background-color: #000;
+}
+.subTitulo, .logo-footer, h1{
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+}
+.trabajos .subTitulo{
+  color: #fff;
+}
+.jumbotron {
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 10rem;
+}
+.descripcion{
+  color:#fff;
+}
+.expSlider .card-body{
+  text-align: center;
+}
+.expSlider .card{
+  border: none;
+}
+.logo-footer, footer i{
+  color:#fff;
+}
+
+@media (min-width: 300px) {
+
+  .expSlider .card img{
+    width: 200px;
+    margin: auto;
+    height: 105px;
+  }
+  .descripcion{
+    position: relative;
+    top: 161px;
+  }
+  .trabajos .card{
+    margin-top: 40px;
+  }
+  footer i{
+    font-size: 38px;
+    padding: 0 10px 0 10px;
+  }
+
+
+}
