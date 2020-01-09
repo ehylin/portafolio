@@ -31,8 +31,12 @@ nav a{
   background-position: left;
   padding-bottom: 10rem;
 }
+.jumbotron h2{
+  font-weight: 700;
+}
 .descripcion{
   color:#fff;
+  background-color: rgba(0,0,0,0.120);
 }
 .expSlider .card-body{
   text-align: center;
@@ -73,7 +77,9 @@ nav a{
     .jumbotron {
       padding-bottom: 18rem;
     }
-
+    .jumbotron h2{
+      font-size: 50px;
+    }
     .expSlider .card img{
       width: 200px;
       height: 120px;
@@ -90,9 +96,9 @@ nav a{
     footer i{
       font-size: 50px;
       padding: 0 10px 0 10px;
-  }
-  .logo-footer{
-    font-size: 38px;
-  }
+    }
+    .logo-footer{
+      font-size: 38px;
+    }
 
 }
