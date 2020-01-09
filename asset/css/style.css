@@ -29,7 +29,7 @@ nav a{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-      padding-bottom: 10rem;
+  padding-bottom: 10rem;
 }
 .descripcion{
   color:#fff;
@@ -70,6 +70,10 @@ nav a{
   }
   @media (min-width: 1200px) {
 
+    .jumbotron {
+      padding-bottom: 18rem;
+    }
+
     .expSlider .card img{
       width: 200px;
       height: 120px;
@@ -78,7 +82,7 @@ nav a{
       margin: 57px 0 92px 0;
     }
     .descripcion{
-      top: 550px;
+      top: 270px;
     }
     .trabajos .card{
       margin-top: 50px;
